@@ -5,6 +5,7 @@ from PIL import Image
 import os
 import re
 
+
 # Define the same SimpleCNN model used in training
 class SimpleCNN(nn.Module):
     def __init__(self, num_classes):
